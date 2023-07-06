@@ -27,14 +27,30 @@
     padding: 5px;
     font-size: 20px;
 }
+/* banner section css */
 .banner-img img{
     width: 300px;
 }
 .banner-section{
+    /* color: white; */
     display: flex;
     align-items: center;
     justify-content: space-around;
+    height: 100vh;
+    /* background-image: url('./images/background.png'), linear-gradient(45 deg,rgb(8, 8, 8),rgb(53, 53, 53)); */
 }
 .banner-text h1{
-    font-size: 40px;
+    font-size: 55px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+.banner-text p{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.btn{
+    background-color: red;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
 }
