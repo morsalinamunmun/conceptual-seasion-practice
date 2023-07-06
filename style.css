@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* .bg{
+    background-color: rgb(43, 42, 42);
+} */
+.menu-section{
+    background-color: rgb(56, 55, 55);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo img{
+    width: 120px;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li, a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 20px;
+    padding: 5px;
+    font-size: 20px;
+}
+.banner-img img{
+    width: 300px;
+}
+.banner-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.banner-text h1{
+    font-size: 40px;
+}
