@@ -134,3 +134,36 @@
 .icon{
     width: 70px;
 }
+/* footer section css */
+.footer-section{
+    background-color: rgb(21, 20, 20);
+    height: 60vh;
+}
+.footer-info{
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 40px 40px 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.col1 img{
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.footer-info h3{
+    margin-bottom: 20px;
+}
+.footer-info p, h3{
+    color: #fff;
+    line-height: 30px;
+}
+.copyright{
+    color: #fff;
+    text-align: center;
+}
+.end{
+    margin-top: 50px;
+    margin-left: 130px;
+    margin-right: 130px;
+}
