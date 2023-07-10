@@ -53,6 +53,7 @@
     margin-bottom: 15px;
 }
 .btn{
+    color: white;
     background-color: red;
     padding: 15px 20px;
     border: none;
@@ -63,7 +64,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 60px;
+    padding: 50px;
     /* flex-direction: row-reverse; */
 }
 .about-img{
@@ -88,3 +89,48 @@
     margin-bottom: 8px;
 }
 /* services section css */
+.services{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 70px;
+}
+.service-section{
+    background-image: url('./images/background.png'),linear-gradient(45deg, rgb(8, 8, 8), rgb(53, 53, 53));
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+}
+.service-section h1{
+    font-size: 45px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+.service-section button{
+    background-color: rgb(31, 31, 31);
+    border: none;
+    padding: 8px 10px;
+    color: white;
+    margin-top: 20px;
+}
+.service-box{
+    color: white;
+    background-color: rgb(14, 14, 14);
+    width: 230px;
+    height: 280px;
+    box-shadow: 3px 3px 48px 3px rgb(137, 137, 137);
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+.service-box h2{
+    margin-bottom: 15px;
+}
+.icon{
+    width: 70px;
+}
